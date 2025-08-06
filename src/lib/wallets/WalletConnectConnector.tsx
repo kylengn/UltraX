@@ -42,14 +42,14 @@ export class WalletConnectConnector extends AbstractConnector {
       rpcMap,
       projectId,
       showQrModal,
-      qrModalOptions: {
-        enableExplorer: true,
-        themeMode: "dark",
-        themeVariables: {
-          "--wcm-font-family": '"Relative",sans-serif',
-          "--wcm-z-index": "1100",
-        },
-      },
+      // qrModalOptions: {
+      //   enableExplorer: true,
+      //   themeMode: "dark",
+      //   themeVariables: {
+      //     "--wcm-font-family": '"Relative",sans-serif',
+      //     "--wcm-z-index": "1100",
+      //   },
+      // },
     };
 
     this.handleChainChanged = this.handleChainChanged.bind(this);

@@ -33,6 +33,7 @@ import NftWallet from "pages/NftWallet/NftWallet";
 import ClaimEsGmx from "pages/ClaimEsUtx/ClaimEsUtx";
 import BeginAccountTransfer from "pages/BeginAccountTransfer/BeginAccountTransfer";
 import CompleteAccountTransfer from "pages/CompleteAccountTransfer/CompleteAccountTransfer";
+import DexDashboard from "pages/DexDashboard/DexDashboard";
 
 import { cssTransition, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -487,6 +488,9 @@ function FullApp() {
               </Route> */}
               <Route exact path="/buy-utx">
                 <BuyUTX />
+              </Route>
+              <Route exact path="/dex-dashboard">
+                <DexDashboard />
               </Route>
               {/* <Route exact path="/ecosystem">
                 <Ecosystem />
